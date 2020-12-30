@@ -1,0 +1,57 @@
+.SApp {
+  text-align: center;
+  position: relative;
+}
+.nav {
+  position: absolute;
+  top: 18px;
+  left: 50px;
+  font-size: 50px;
+  color: white;
+
+  width: 100%;
+  height: 30%;
+}
+
+.button {
+  margin-top: 140px;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  border: 2px;
+  outline: black;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.logout {
+  display: inline-table;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-decoration: #fff;
+  cursor: pointer;
+  text-align: center;
+  position: top right;
+  text-decoration: none;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  border: 2px;
+  outline: black;
+}
